@@ -1,72 +1,71 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 li {
-    list-style: none;
-    text-align: right;
+	list-style: none;
+	text-align: right;
 }
 
 body {
-    font-size: 2.5rem;
-    background-color: #C490E4;
+	font-size: 2.5rem;
+	background-color: #c490e4;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 6.5rem;
-    
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 6.5rem;
+	padding: 15px;
 }
 
 .figure__header-container img {
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    width: 20rem;
-    
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+	width: 20rem;
 }
 
 .figure__nav-img {
-    margin-right: 2rem;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+	margin-right: 2rem;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .figure__nav-img span {
-    color: white;
-    font-weight: 800;
-    
+	color: white;
+	font-weight: 800;
 }
 
 .figure__nav-img img {
-    margin-top: 0.5rem;
-    width: 5rem;
+	margin-top: 0.5rem;
+	width: 5rem;
 }
 
 .ul__nav-item {
-    margin-right: 4rem;
+	margin-right: 4rem;
 }
 
-
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 6rem;
-    background-color: #F4A9A8;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 6rem;
+	background-color: #965abb;
+	padding: 15px;
 }
