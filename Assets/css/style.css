@@ -118,14 +118,13 @@ main{
 	position: relative;
 }
 
-.carousel span {
-	counter-res;
-}
+
 
 .carousel__container{
 	white-space: nowrap;
 	margin: 2rem 0rem;
 	padding-bottom: 1rem;
+	overflow: scroll;
 }
 
 .carousel__item {
