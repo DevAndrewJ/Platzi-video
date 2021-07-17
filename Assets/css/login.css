@@ -6,7 +6,7 @@
 html {
     font-size: 62.5%;
     color: white;
-    font-family: 'Mulish', sans-serif;
+   
 }
 
 a {
@@ -22,7 +22,8 @@ a:hover {
 
 body {
     font-size: 1.3rem;
-    background: linear-gradient(#151515, #301B3F) ;
+    background: linear-gradient(#151515, #301B3F);
+    font-family: 'Mulish', sans-serif;
 }
 
 header {
@@ -47,18 +48,25 @@ main {
 }
 
 .main__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     border: white solid 0.2rem;
     border-radius: 4rem;
     width: 40rem;
     min-height: 70rem;
     padding: 6rem 6.8rem 4rem;
     background-color: rgba(88, 88, 88, 0.2);
-   
+
 }
 
 .main__container > p {
     display: flex;
     justify-content: space-evenly;
+}
+
+.title_not-found {
+    font-size: 40rem;
 }
 
 main h2 {
@@ -85,9 +93,6 @@ main h2 {
     justify-content: space-evenly;
 }
 
-.social__media-container {
-    margin-bottom: 25rem;
-}
 
 .social__media-container > div {
     display: flex;
@@ -121,10 +126,17 @@ main h2 {
 
 
 .button {
+    background-color: rgba(209, 209, 209, 0.1);
+    border: none;
+    color: white;
+    border-radius: 2.4rem;
+    height: 3.4rem;
     margin-bottom: 2rem;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.2rem;
 } 
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -136,4 +148,20 @@ footer{
 
 }
 
+@media only screen and (max-width: 60rem) {
+
+    .main__container {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    
+    }
+
+    footer {
+        
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
 
