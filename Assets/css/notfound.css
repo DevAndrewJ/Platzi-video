@@ -6,6 +6,7 @@
 
 html {
 	font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
 }
 
 
@@ -49,6 +50,7 @@ main{
 }
 
 .title_no-found {
+    font-weight: 200;
     font-size: 6rem;
     margin-bottom: 2rem;
 }
